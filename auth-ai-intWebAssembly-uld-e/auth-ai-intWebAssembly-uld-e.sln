@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "auth-ai-intWebAssembly-uld-e", "auth-ai-intWebAssembly-uld-e\auth-ai-intWebAssembly-uld-e.csproj", "{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "auth-ai-intWebAssembly-uld-e.Client", "auth-ai-intWebAssembly-uld-e.Client\auth-ai-intWebAssembly-uld-e.Client.csproj", "{74C82ED3-A4DB-4EA1-84BA-131085E38A89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Debug|x64.Build.0 = Debug|Any CPU
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Debug|x86.Build.0 = Debug|Any CPU
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Release|x64.ActiveCfg = Release|Any CPU
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Release|x64.Build.0 = Release|Any CPU
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Release|x86.ActiveCfg = Release|Any CPU
+		{74C82ED3-A4DB-4EA1-84BA-131085E38A89}.Release|x86.Build.0 = Release|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Debug|x64.Build.0 = Debug|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Debug|x86.Build.0 = Debug|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Release|x64.ActiveCfg = Release|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Release|x64.Build.0 = Release|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Release|x86.ActiveCfg = Release|Any CPU
+		{0A6E7D36-3F5A-46BE-92EC-00A099F3647E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BD4E3A0-371D-4B67-9758-05D9E16DCF57}
+	EndGlobalSection
+EndGlobal
