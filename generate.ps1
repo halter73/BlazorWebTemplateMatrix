@@ -21,7 +21,8 @@ $argArray = @('-au Individual', '-au None') |
 %{ @("$_ -int None", "$_ -int Server", "$_ -int WebAssembly", "$_ -int Auto") } |
 %{ @($_, "$_ -uld") } |
 %{ @($_, "$_ -e") } |
-%{ @($_, "$_ --use-program-main") }
+%{ @($_, "$_ --use-program-main") } |
+?{ $_ -notmatch '-ai -int None' }
 
 foreach ($templateArgs in $argArray) {
     "dotnet new blazor $templateArgs"
