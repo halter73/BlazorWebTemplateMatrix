@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-auth-intServer-uld-e-3687a58c-1f1b-4100-b494-79dc6d82a0dd</UserSecretsId>
+    <UserSecretsId>aspnet-auth-intServer-uld-e-28c82baa-14e2-4a00-8c61-c29dcf4d1a57</UserSecretsId>
     <RootNamespace>auth-intServer-uld-e</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>

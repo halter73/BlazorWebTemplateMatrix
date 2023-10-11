@@ -4,13 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-auth-intAuto-e-upm-1cde1c08-54cb-4fc7-9eda-0fc8a4f8bc05</UserSecretsId>
+    <UserSecretsId>aspnet-auth-intAuto-e-upm-ba737552-4dff-463a-91ea-6e29a8363de8</UserSecretsId>
     <RootNamespace>auth-intAuto-e-upm</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <None Update="Data\app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
 
   <ItemGroup>

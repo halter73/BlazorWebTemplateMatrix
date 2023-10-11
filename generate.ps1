@@ -3,18 +3,19 @@ $aspnetcoreLink = "https://github.com/dotnet/aspnetcore/tree/$(git -C $aspnetcor
 if (!$?) { return $lastexitcode }
 
 dotnet pack $aspnetcoreRepo\src\ProjectTemplates\Web.ProjectTemplates\Microsoft.DotNet.Web.ProjectTemplates.csproj
+if (!$?) { return $lastexitcode }
 dotnet new uninstall Microsoft.DotNet.Web.ProjectTemplates.8.0
 dotnet new install $aspnetcoreRepo\artifacts\packages\Debug\Shipping\Microsoft.DotNet.Web.ProjectTemplates.8.0.8.0.0-dev.nupkg
 if (!$?) { return $lastexitcode }
 
-dotnet new globaljson
-dotnet new gitignore
-cp $aspnetcoreRepo\NuGet.config .
-cp $aspnetcoreRepo\.gitattributes .
-
-git init
-git add -A
-git commit -m "Initial commit" -m "" -m $aspnetcoreLink
+#dotnet new globaljson
+#dotnet new gitignore
+#cp $aspnetcoreRepo\NuGet.config .
+#cp $aspnetcoreRepo\.gitattributes .
+#
+#git init
+#git add -A
+#git commit -m "Initial commit" -m "" -m $aspnetcoreLink
 
 $argArray = @('-au Individual', '-au None') |
 %{ @($_, "$_ -ai") } |
@@ -41,8 +42,8 @@ foreach ($templateArgs in $argArray) {
     @("$appName.csproj", "$appName\$appName.csproj", "$appName.Client\$appName.Client.csproj") |
     ?{ Test-Path $_ } | %{ (cat $_) -replace '8.0.0-dev','8.0.0-*' | Set-Content $_ }
 
-    git add -A
-    git commit -m "dotnet new blazor $templateArgs" -m "" -m $aspnetcoreLink
+    #git add -A
+    #git commit -m "dotnet new blazor $templateArgs" -m "" -m $aspnetcoreLink
 
     popd
 }

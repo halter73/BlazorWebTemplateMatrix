@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-auth-ai-intServer-uld-e-99cbb918-f0ef-4b9b-a02b-566021b58a40</UserSecretsId>
+    <UserSecretsId>aspnet-auth-ai-intServer-uld-e-4c914ef6-e604-4650-9e6e-6e759c84a7b6</UserSecretsId>
     <RootNamespace>auth-ai-intServer-uld-e</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>

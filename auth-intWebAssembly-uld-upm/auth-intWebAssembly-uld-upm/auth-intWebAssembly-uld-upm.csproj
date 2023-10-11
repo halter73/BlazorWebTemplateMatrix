@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-auth-intWebAssembly-uld-upm-324de909-ab4d-429c-993b-f87f1ecb8091</UserSecretsId>
+    <UserSecretsId>aspnet-auth-intWebAssembly-uld-upm-d800af6f-a10e-4432-a740-560ceee5296c</UserSecretsId>
     <RootNamespace>auth-intWebAssembly-uld-upm</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>
