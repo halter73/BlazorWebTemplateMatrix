@@ -18,6 +18,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0-*" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0-rtm.23502.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0-rtm.23502.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Twitter" Version="8.0.0-*" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.0-*" />
   </ItemGroup>
 
 </Project>
