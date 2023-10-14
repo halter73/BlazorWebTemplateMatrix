@@ -29,8 +29,8 @@ builder.Services.AddAuthentication(options =>
     })
     .AddTwitter(twitterOptions =>
     {
-        twitterOptions.ConsumerKey = builder.Configuration["Authentication:Twitter:ConsumerAPIKey"];
-        twitterOptions.ConsumerSecret = builder.Configuration["Authentication:Twitter:ConsumerSecret"];
+        twitterOptions.ClientId = builder.Configuration["Authentication:Twitter:ClientId"];
+        twitterOptions.ClientSecret = builder.Configuration["Authentication:Twitter:ClientSecret"];
     })
     .AddIdentityCookies();
 
