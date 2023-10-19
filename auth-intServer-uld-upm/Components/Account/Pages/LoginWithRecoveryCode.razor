@@ -2,7 +2,6 @@
 
 @using System.ComponentModel.DataAnnotations
 @using Microsoft.AspNetCore.Identity
-@using Microsoft.AspNetCore.Mvc
 @using auth_intServer_uld_upm.Data
 
 @inject SignInManager<ApplicationUser> SignInManager
@@ -64,7 +63,7 @@
             Logger.LogInformation("User with ID '{UserId}' logged in with a recovery code.", userId);
             RedirectManager.RedirectTo(ReturnUrl);
         }
-        if (result.IsLockedOut)
+        else if (result.IsLockedOut)
         {
             Logger.LogWarning("User account locked out.");
             RedirectManager.RedirectTo("Account/Lockout");
